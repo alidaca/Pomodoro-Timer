@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pomodoro Timer - FreeCodeCamp</title>
+	<link href='https://fonts.googleapis.com/css?family=Pacifico|Judson' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+
+			<h1>Pomodoro Timer</h1>
+
+		<div class="settings">
+			<h2>Break</h2>
+			<div class="controls">
+				<button id="subtractBreak" class="minus"> - </button>
+				<div id="breakEnd" class="digit"> 5 </div>
+				<button id="addBreak" class="plus"> + </button>
+			</div>
+		</div> <!-- break settings-->
+
+		<div class="settings">
+			<h2>Session</h2>
+			<div class="controls">
+				<span><button id="subtractSession" class="minus"> - </button></span>
+				<span><div id="sessionEnd" class="digit"> 25 </div></span>
+				<span><button id="addSession" class="plus"> + </button></span>
+			</div>
+		</div> <!-- session setting-->
+		
+		<h3 id="label">Session: </h3>
+		<div id="countdown">
+			<span id="hours" class="hidden"> 0 </span><span id="spacer" class="hidden">:</span><span id="minutes"> 0 </span>
+		</div> <!-- countdown -->
+
+	</div> <!-- container -->
+	<script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.js" ></script>
+	<script src="script.js" type="text/javascript" charset="utf-8" async defer></script>	
+</body>
+</html>
