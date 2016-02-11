@@ -1,6 +1,6 @@
 # Pomodoro Timer
 
-Online Pomodoro technique timer built in javascript.
+Online Pomodoro technique timer built in javascript. See the project [here](http://alidaca.github.io/Pomodoro-Timer/)
 
 ## Credits
 
